@@ -1,0 +1,40 @@
+.depositContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0rem;
+    background-color: #fff;
+    color: black;
+    /* border: 1px solid red; */
+}
+.largeText{
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    /* justify-content: baseline; */
+    align-items: first baseline;
+    gap: .3rem;
+}
+.circle{
+    width: 7px;
+    height: 7px;
+    background-color: black;
+}
+.smallText{
+    margin-top: .3rem;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+.imgContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0rem;
+}
+.imgContainer img{
+    max-width: 400px;
+}

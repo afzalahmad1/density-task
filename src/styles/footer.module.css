@@ -1,0 +1,43 @@
+.bg{
+    background-color: #2a5;
+    color: #fff;
+    padding: 2rem 0rem;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding: 1.5rem 0rem;
+    /* border: 1px solid red; */
+    
+}
+.densityContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .3rem;
+    font-size: 28px;
+    font-weight: 400;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    flex-flow: row wrap;
+    font-weight: 300;
+}
+.para{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.5rem;
+}
